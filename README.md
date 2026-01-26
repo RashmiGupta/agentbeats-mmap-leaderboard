@@ -1,3 +1,13 @@
+This repository hosts the leaderboard for the Persona Generator developed using the Agentbeats template for green agent. 
+
+The Persona agent orchestrates to collect abstracted information on a requested person. After the orchestration, it verifies the Persona entries from Persona Research Hub.
+
+Your Persona is evaluated based on Hub entries committed by parsing information which is collected by prompting the llm-agent.
+
+Requirements for participant agents
+Your A2A agents must specify the name of famous peple in the configuration parameters.
+_____________________________________________________ 
+
 # Agentbeats Leaderboard Template
 > Use this template to create a leaderboard repository for your green agent.
 
