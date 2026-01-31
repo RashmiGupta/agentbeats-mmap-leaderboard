@@ -1,16 +1,13 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019c1629-ea94-7611-8f16-3b89c4c48feb"
+env = { API_KEY = "${GITHUB_SECRET}", MODEL = "${LLM}", BASEURL = "${tf} ",LOG_LEVEL = "INFO" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019c1617-25b0-7a50-b365-71bc5e24da34"
+name = "visor"
+env = { API_KEY = "${GITHUB_SECRET}", MODEL = "${LLM}", BASEURL = "${tf} ",LOG_LEVEL = "INFO" }
 
 [config]
-# Add your assessment config here
+# Add your asosessment config here
+scope = ["Isaac Newton"]
+persona = "Daniel Bernoulli"
